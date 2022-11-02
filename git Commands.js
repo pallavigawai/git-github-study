@@ -7,5 +7,9 @@
    One way to unstage files on Git is to run the git reset command.
 5. git commit -m "Notes about the commit": Create a Commit
    After adding the specified files to the staging environment, instruct Git to package the files into a commit using the git commit command. Git then stores that file version. You can review the stored version at any given time.   
+6. git branch [new_branch_name]          : The first branch in a git repository is called master, and it is the primary branch in a project.
 
-   
+7. git branch [new_branch_name]          : Create a New Branch
+   Creating a new Git branch means creating a copy of the project from a specific point in time. Branches in Git allow users to make new features without applying the changes to the main branch while the feature is in development.
+8. git checkout [branch_name]             : Switch Branches
+   Having several branches of a Git project provides a test environment for developers to track progress without affecting the production version of an application. Git allows you to switch between branches with the checkout command easily.
