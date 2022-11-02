@@ -1,6 +1,14 @@
 /********************* GIT & GITHUB *********************/
 
 What Is Git and What Is GitHub
-Git is a free, open-source, distributed version control system that handles source code changes in software projects of all sizes. Git allows multiple developers to work together on the same project with ease.
+# GIT:-
+ * Git is the most popular version control system (VCS) in the world. It records changes made to your code in a repository and allows you to roll back to a previous state in case of a mistake or a bug.
+ * Git is a free, open-source, distributed version control system that handles source code changes in software projects of all sizes. Git allows multiple developers to work together on the same project with ease.
+There are two types of version control systems:
 
+* Centralized. All team members connect to a central server to get the latest code copy and share their contribution with others.
+* Distributed. In a distributed VCS, every team member has a copy of the project and its history on their machine, allowing them to save snapshots of the project locally.
+  The issue with a centralized VCS is the single point of failure. If the server goes down, team members can't collaborate or save snapshots of their project.
+  Git is a distributed VCS that resolves the single point of failure issue because it allows members to synchronize their work even if the central server is offline.
+   
 On the other hand, GitHub is a company that offers a cloud-based repository allowing developers to store and manage their code and to track and control code changes. You can use Git without GitHub, but you can't use GitHub without Git.
