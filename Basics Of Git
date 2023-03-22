@@ -12,3 +12,43 @@ There are two types of version control systems:
   Git is a distributed VCS that resolves the single point of failure issue because it allows members to synchronize their work even if the central server is offline.
    
 On the other hand, GitHub is a company that offers a cloud-based repository allowing developers to store and manage their code and to track and control code changes. You can use Git without GitHub, but you can't use GitHub without Git.
+
+
+/********************* DIFFERENCE BETWEEN LOCAL $ REMOTE REPOSITORY  *********************/
+
+1. What is the difference between remote and local git?
+   A local branch is a branch that only you (the local user) can see. It exists only on your local machine. A remote branch is a branch on a remote location (in most cases origin ). You can update your remote tracking branch to be in sync with the remote branch using git fetch or git pull .
+
+
+2. What is the difference between local repository and remote repository?
+   Local repositories reside on the computers. In contrast, remote repositories are hosted on a server that is accessible for all team members – most likely on the internet or on a local network.
+
+
+3. What is a remote repository git?
+   A remote repository in Git, also called a remote, is a Git repository that’s hosted on the Internet or another network. The video will take you through pushing changes to a remote repository on GitHub, viewing a remote’s branches, and manually adding remote.
+
+4. Where is the local git repository?
+   The Local Repository is the . git/ subdirectory inside the Working Directory. The Index is a conceptual place that also physically resides in the . git/ subdirectory.
+
+5. How do I create a local remote repository?
+   Create a new blank project with Git
+   Step 1: Browsing to the right path. Create a new folder in your Windows file explorer.
+   Step 2: Create the new project using git init command.
+   Step 3: Staging and committing new files.
+   Step 4: Pushing the local commits to the remote repository on GitHub.
+
+6. What is a local copy of a remote repository called?
+   When you clone a repository initially to get it onto your computer, you copy the entire repository from a remote location to your local computer. During this processes, git will add a remote to your local copy of the repository called origin .
+
+7. What is the name of remote repository?
+   Git Remote A remote repository (often called a remote), is a Git repository hosted on the Internet or some other network.
+
+9. How do I connect to a remote git repository?
+   Now in your local machine, $cd into the project folder which you want to push to git execute the below commands:
+   git init .
+   git remote add origin username@189.14.666.666:/home/ubuntu/workspace/project. git.
+   git add .
+   git commit -m “Initial commit”
+   
+ 10. What’s the difference between a remote repository and a local repository?
+     The purpose of a remote repository (eg, GitHub) is to publish your code to the world (or to some people) and allow them to read or write it. The remote repository is only involved when you git push your local commits to a remote repository, or when you git pull someone else’s commits from it.
