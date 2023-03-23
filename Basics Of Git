@@ -52,3 +52,7 @@ On the other hand, GitHub is a company that offers a cloud-based repository allo
    
  10. What’s the difference between a remote repository and a local repository?
      The purpose of a remote repository (eg, GitHub) is to publish your code to the world (or to some people) and allow them to read or write it. The remote repository is only involved when you git push your local commits to a remote repository, or when you git pull someone else’s commits from it.
+     Local repository is a copy of your project stored in your computer's hard drive. It allows you to work on your project offline and commit changes to version control (such as Git) when you're ready to share them.
+     Remote repository, on the other hand, is stored in a server that can be accessed over the internet. It allows multiple developers to work on the same project and collaborate on the same codebase. 
+     Changes made to the remote repository can be pulled (downloaded) down to the local repository,and 
+     changes made to the local repository can be pushed (uploaded) up to the remote repository.
