@@ -1,4 +1,4 @@
-/**************************** A List of Git Commands *****************************/
+/**************************** A List of Git Commands ***************************** /
 1. git init [directory]                 :Create a new Git repository from an existing directory
 2. git clone [repo / URL]               :Clone a repository (local or remote via HTTP/SSH)
 3. git add [filename]                   :Git notifies you if you have any untracked files. If you want Git to start tracking a file, run the following command
@@ -13,3 +13,6 @@
    Creating a new Git branch means creating a copy of the project from a specific point in time. Branches in Git allow users to make new features without applying the changes to the main branch while the feature is in development.
 8. git checkout [branch_name]             : Switch Branches
    Having several branches of a Git project provides a test environment for developers to track progress without affecting the production version of an application. Git allows you to switch between branches with the checkout command easily.
+
+   
+   */
