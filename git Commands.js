@@ -22,11 +22,6 @@
 
 8. git checkout [branch_name]             : Switch Branches
    Having several branches of a Git project provides a test environment for developers to track progress without affecting the production version of an application. Git allows you to switch between branches with the checkout command easily.
-<<<<<<< HEAD
-
-   
-   */
-=======
       
 9. git add [file]: Snapshots the file in preparation for versioning, adding it to the staging area.
 
@@ -35,4 +30,20 @@
 11. git push: Uploads all local branch commits to the remote.
 
 12. git log: Browse and inspect the evolution of project files.
->>>>>>> 9ea633f7ad4b0a45d4dfb2beb7ab2786274b1ceb
+
+13.git pull: Invoking git pull is equivalent to git fetch origin HEAD and git merge HEAD. HEAD is reference that points to the current branch.
+   by "git pull" command.
+   
+14. Git branch usage
+    Branching is an available feature in most version control systems. Git branches are a pointer to a snapshot of the changes you have made. 
+    A new branch is created to encapsulate the changes when you want to fix bugs or add new features. This helps you to clean up the future's history before merging it. 
+    Git branches are an essential part of everyday workflow. Git does not copy files from one directory to another, it stores the branch as a reference to a commit.   
+
+15. 
+Common options
+git branch	Lists all of the branches in the repository (the same as git branch --list).
+git branch <branch>     :Creates a new branch called <branch> but does not checks out the new branch.
+git branch -d <branch>	:Deletes a branch. If there are unmerged changes, Git does not allow you to delete it.
+git branch -D <branch>	:Forces delete the branch, even if there are unmerged changes. Execute this command when you are sure to delete it permanently.
+git branch -m <branch>	:Moves or renames the current branch to <branch>.
+git branch -a	         :Lists all the remote branches.
